@@ -8,7 +8,7 @@ SRC_URI = "git://chromium.googlesource.com/external/gyp;protocol=https;branch=ma
 SRCREV = "fcd686f1880fa52a1ee78d3e98af1b88cb334528"
 
 S = "${WORKDIR}/git"
-PV = "0.1+git${SRCPV}"
+PV = "0.1+git"
 
 BBCLASSEXTEND = "native nativesdk"
 inherit setuptools

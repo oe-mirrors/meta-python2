@@ -12,7 +12,7 @@ LIC_FILES_CHKSUM = "\
 "
 
 # 3.11.4 tag + gcc10 fixes for -fno-common
-PV = "3.11.4+git${SRCPV}"
+PV = "3.11.4+git"
 
 # upstream only publishes releases in github archives which are discouraged
 SRCREV = "104ca13567c08c1188b126a395c4602841aae2c6"

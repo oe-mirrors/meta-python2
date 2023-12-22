@@ -3,7 +3,7 @@ LICENSE = "AGPL-3.0-only"
 LIC_FILES_CHKSUM = "file://LICENSE.txt;md5=834cbc6995db88433db17cdf8953a428"
 HOMEPAGE = "http://liftoffsoftware.com/Products/GateOne"
 
-PV = "1.2+git${SRCPV}"
+PV = "1.2+git"
 SRCREV = "f7a9be46cb90f57459ebd363d24702de0e651034"
 SRC_URI = "git://github.com/liftoff/GateOne.git;branch=master;protocol=https \
            file://gateone-avahi.service \
