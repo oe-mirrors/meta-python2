@@ -1,5 +1,5 @@
-SUMMARY="Pylint is a Python source code analyzer"
-HOMEPAGE= "http://www.pylint.org/"
+SUMMARY = "Pylint is a Python source code analyzer"
+HOMEPAGE = "http://www.pylint.org/"
 LICENSE = "GPL-2.0-only"
 LIC_FILES_CHKSUM = "file://COPYING;md5=4325afd396febcb659c36b49533135d4"
 
@@ -22,7 +22,7 @@ EOF
 }
 
 PACKAGES =+ "${PN}-tests"
-FILES:${PN}-tests+= " \
+FILES:${PN}-tests += " \
     ${PYTHON_SITEPACKAGES_DIR}/pylint/test/ \
     ${PYTHON_SITEPACKAGES_DIR}/pylint/testutils.py \
 "
