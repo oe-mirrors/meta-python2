@@ -18,7 +18,7 @@ PYPI_PACKAGE = "Werkzeug"
 CLEANBROKEN = "1"
 
 PACKAGES =+ "${PN}-tests"
-FILES:${PN}-tests+= " \
+FILES:${PN}-tests += " \
     ${PYTHON_SITEPACKAGES_DIR}/werkzeug/test* \
     ${PYTHON_SITEPACKAGES_DIR}/werkzeug/__pycache__/test* \
     ${PYTHON_SITEPACKAGES_DIR}/werkzeug/contrib/test* \
