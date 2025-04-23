@@ -84,4 +84,4 @@ distutils_do_install() {
 
 EXPORT_FUNCTIONS do_configure do_compile do_install
 
-export LDSHARED="${CCLD} -shared"
+export LDSHARED = "${CCLD} -shared"

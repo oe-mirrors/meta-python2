@@ -1,9 +1,9 @@
 
 inherit python-dir
 
-PYTHON="${STAGING_BINDIR_NATIVE}/python-native/python"
+PYTHON = "${STAGING_BINDIR_NATIVE}/python-native/python"
 # PYTHON_EXECUTABLE is used by cmake
-PYTHON_EXECUTABLE="${PYTHON}"
+PYTHON_EXECUTABLE = "${PYTHON}"
 EXTRANATIVEPATH += "python-native"
 DEPENDS:append = " python-native "
 
@@ -17,8 +17,8 @@ export STAGING_LIBDIR
 # find_package(PythonLibs REQUIRED)
 # which ends up using libs/includes from build host
 # Therefore pre-empt that effort
-export PYTHON_LIBRARY="${STAGING_LIBDIR}/lib${PYTHON_DIR}${PYTHON_ABI}.so"
-export PYTHON_INCLUDE_DIR="${STAGING_INCDIR}/${PYTHON_DIR}${PYTHON_ABI}"
+export PYTHON_LIBRARY = "${STAGING_LIBDIR}/lib${PYTHON_DIR}${PYTHON_ABI}.so"
+export PYTHON_INCLUDE_DIR = "${STAGING_INCDIR}/${PYTHON_DIR}${PYTHON_ABI}"
 
 # suppress host user's site-packages dirs.
 export PYTHONNOUSERSITE = "1"
